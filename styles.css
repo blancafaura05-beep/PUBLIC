@@ -6,7 +6,7 @@ body {
   margin: 0;
 }
 
-/* NAVIGATION */
+/* NAV */
 nav {
   display: flex;
   justify-content: space-between;
@@ -109,7 +109,7 @@ header {
 /* MAIN */
 main {
   background: #f6f8fb;
-  padding: 60px 20px;
+  padding: 60px 0;
 }
 
 /* ABOUT */
@@ -285,7 +285,7 @@ main {
   white-space: nowrap;
 }
 
-/* WORK SECTION */
+/* WORK */
 .work {
   background: #ffffff;
   padding: 60px 20px;
@@ -309,7 +309,7 @@ main {
   max-width: 600px;
 }
 
-/* Project Card (each project) */
+/* Project Card */
 .project-card {
   display: flex;
   gap: 40px;
@@ -321,7 +321,7 @@ main {
   margin-bottom: 40px;
 }
 
-/* Reverse layout for alternating projects */
+/* Reverse */
 .project-card.reverse {
   flex-direction: row-reverse;
 }
@@ -378,7 +378,7 @@ main {
   border-radius: 999px;
 }
 
-/* TESTIMONIALS SECTION */
+/* TESTIMONIALS */
 .testimonials {
   background: #f6f8fb;
   padding: 60px 20px;
@@ -445,7 +445,7 @@ main {
   color: #6b7280;
 }
 
-/* CONTACT SECTION */
+/* CONTACT  */
 .contact {
   background: #ffffff;
   padding: 60px 20px;
@@ -584,7 +584,7 @@ main {
     max-width: 100%;
   }
 
-  /* WORK / PROJECT CARDS */
+  /* WORK */
   .project-card {
     flex-direction: column;
     gap: 20px;
