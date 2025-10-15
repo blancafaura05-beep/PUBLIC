@@ -1,299 +1,313 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Blanca Faura</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- NAV -->
-    <nav>
-      <div class="nav-left">
-        <div class="logo">&lt;BF /&gt;</div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Blanca Faura</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- NAV -->
+  <nav>
+    <div class="nav-left">
+      <div class="logo">&lt;BF /&gt;</div>
+    </div>
+
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="downloadbutton">Download CV</button>
       </div>
+    </div>
+  </nav>
 
-      <div class="nav-right">
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-
-        <div class="nav-actions">
-          <button class="downloadbutton">Download CV</button>
-        </div>
-      </div>
-    </nav>
-
-    <!-- HEADER -->
-    <header>
-      <div class="header-text">
-        <h1>Hi, I'm Blanca <span class="wave">👋</span></h1>
-        <p class="lead">
-          I am currently pursuing a double degree in Artificial Intelligence and Computer Engineering. 
-          I am looking for new opportunities to gain practical skills that will help me grow both academically and professionally. 
-          I am a highly creative and social person, with a strong ability to adapt to different situations.
-        </p>
-
-        <div class="meta">
-          <div class="location">
-            <p>Zaragoza, España</p>
-          </div>
-          <div class="availability">
-            <p>Available for new projects</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="header-img">
-        <div class="frame"></div>
-        <img src="assets/imagen/imagenblanca.png" alt="Foto de Blanca" />
-      </div>
-    </header>
-
-    <!-- MAIN -->
-    <main>
-      <!-- About -->
-      <section class="about" id="about">
-        <div class="about-inner">
-          <div class="about-photo">
-            <div class="photo-frame"></div>
-            <img src="assets/imagen/imagenblanca.png" alt="Foto de Blanca" />
-          </div>
-
-          <div class="about-content">
-            <div class="badge">About me</div>
-            <h2>Curious about me? Here you have it:</h2>
-            <p>
-              I am a skilled communicator and creative thinker with a strong interest in artificial intelligence. 
-              I am sociable and possess a natural ability to adapt to different situations.
-            </p>
-            <p>Regarding languages:</p>
-
-            <ul class="languagues">
-              <li>Spanish and Catalan: Native</li>
-              <li>English: Cambridge B2 Certificate</li>
-              <li>French: A2 (Official Language School)</li>
-              <li>German: A1 (Official Language School)</li>
-            </ul>
-
-            <p class="final">
-              I am always eager to learn and explore new opportunities, so if you would like to connect, collaborate, or simply have a conversation, please feel free to reach out!
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <!-- Skills -->
-      <section class="skills" id="skills">
-        <div class="skills-inner">
-          <div class="badge">Skills</div>
-          <h2>The skills, tools and technologies I am really good at:</h2>
-
-          <div class="skills-grid">
-            <div class="skill">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C" />
-              <span>C</span>
-            </div>
-
-            <div class="skill">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkdgUkYVq9-UPHtkrQyNzA1t-hCdSG65-XYw&s" alt="Python" />
-              <span>Python</span>
-            </div>
-
-            <div class="skill">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-M6xcO1i3iY0M1mP0TgnItcdZep_S-SXkoQ&s" alt="R" />
-              <span>R</span>
-            </div>
-
-            <div class="skill">
-              <img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-2.svg" alt="MongoDB" />
-              <span>MongoDB</span>
-            </div>
-
-            <div class="skill">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Apache-cassandra-icon.png" alt="Cassandra" />
-              <span>Cassandra</span>
-            </div>
-
-            <div class="skill">
-              <img src="https://henrixivo.wordpress.com/wp-content/uploads/2014/07/postgresql-logo.jpg?w=468" alt="PostgreSQL" />
-              <span>PostgreSQL</span>
-            </div>
-
-            <div class="skill">
-              <img src="https://cdn4.iconfinder.com/data/icons/redis-2/1451/Untitled-2-512.png" alt="Redis" />
-              <span>Redis</span>
-            </div>
-
-            <div class="skill">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Neo4j-logo_color.png" alt="Neo4j" />
-              <span>Neo4j</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Experience -->
-      <section class="experience" id="experience">
-        <div class="experience-inner">
-          <div class="badge">Experience</div>
-          <h2>Here is a quick summary of my most recent experiences:</h2>
-
-          <!-- Experience Card -->
-          <div class="experience-card">
-            <div class="experience-left">
-              <img src="https://usjshop.es/wp-content/uploads/2022/01/5.jpg" alt="Universidad San Jorge Logo" />
-              <div>
-                <h3>Beca de colaboración en el grado en inteligencia artificial</h3>
-                <ul>
-                  <li>Delivered pre-university workshops and activities at other educational centers.</li>
-                  <li>Prepared competitions, workshops, and degree-related events (e.g., HashCode or similar).</li>
-                  <li>Created and disseminated content through social media platforms.</li>
-                  <li>Prepared, improved, designed, and planned pre-university workshops.</li>
-                </ul>
-              </div>
-            </div>
-            <div class="experience-dates">October 2023 - Present</div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Work -->
-      <section class="work" id="work">
-        <div class="work-inner">
-          <div class="work-header">
-            <div class="badge">Work</div>
-            <h2>Some of the noteworthy projects I have built:</h2>
-          </div>
-
-          <!-- Project 1 -->
-          <div class="project-card">
-            <div class="project-image">
-              <img src="assets/imagen/portfolio.png" alt="Imagen de mi proyecto de portfolio" />
-            </div>
-            <div class="project-content">
-              <h3>Portfolio</h3>
-              <p>Create a website with all my information</p>
-              <div class="project-tags">
-                <span>html</span>
-                <span>css</span>
-                <span>Visual Studio Code</span>
-                <span>python</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 2  -->
-          <div class="project-card reverse">
-            <div class="project-image">
-              <img src="C:\Users\blanc\Desktop\uni\3 año\sistemas web\public\assets\imagen\Imagen1.png" alt="Imagen proyecto aprendizaje supervisado" />
-            </div>
-            <div class="project-content">
-              <h3>Supervised learning project</h3>
-              <p>In this project, I implement and analyze the Q-learning algorithm to train an agent to learn 
-                how to make optimal decisions in the Cliff Walking and Taxi environments from Gymnasium.</p>
-              <div class="project-tags">
-                <span>enviroment</span>
-                <span>jupyter notebook</span>
-                <span>Cliff Walking</span>
-                <span>Taxi</span>
-                <span>supervised learning</span>
-                <span>python</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Testimonials -->
-      <section class="testimonials" id="testimonials">
-        <div class="testimonials-inner">
-          <div class="testimonials-header">
-            <div class="badge">Testimonials</div>
-            <h2>Nice things people have said about me:</h2>
-          </div>
-
-          <div class="testimonials-grid">
-            <!-- Testimonial 1 -->
-            <div class="testimonial-card">
-              <div class="testimonial-avatar">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWxmiQqKsGu4P4FulnB-hDH6_RyTFPzHo67Q&s" alt="Profile picture" />
-              </div>
-              <p class="testimonial-text">
-                "They showed excellent understanding of Q-learning and great dedication throughout the project. 
-                Their curiosity and problem-solving skills made them an outstanding student."
-              </p>
-              <h3 class="testimonial-author">Dr. Emily Roberts</h3>
-              <p class="testimonial-role">Machine Learning Professor</p>
-            </div>
-
-            <!-- Testimonial 2 -->
-            <div class="testimonial-card">
-              <div class="testimonial-avatar">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWxmiQqKsGu4P4FulnB-hDH6_RyTFPzHo67Q&s" alt="Profile picture" />
-              </div>
-              <p class="testimonial-text">
-                "They were always motivated and creative, turning complex reinforcement learning ideas into solid results. 
-                A great collaborator and fast learner."
-              </p>
-              <h3 class="testimonial-author">Michael Turner</h3>
-              <p class="testimonial-role">Research Assistant, AI Lab</p>
-            </div>
-
-            <!-- Testimonial 3 -->
-            <div class="testimonial-card">
-              <div class="testimonial-avatar">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWxmiQqKsGu4P4FulnB-hDH6_RyTFPzHo67Q&s" alt="Profile picture" />
-              </div>
-              <p class="testimonial-text">
-               "A passionate and disciplined student who explained complex AI concepts clearly 
-               and executed their Q-learning project with precision and enthusiasm."
-              </p>
-              <h3 class="testimonial-author">Prof. Laura Chen</h3>
-              <p class="testimonial-role">Data Science Instructor</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Contact -->
-      <section class="contact" id="contact">
-        <div class="contact-inner">
-          <div class="badge">Get in touch</div>
-          <h2 class="contact-subtitle">
-            What’s next? Feel free to reach out to me if you’re looking for a developer, have a query, or simply want to connect.
-          </h2>
-
-          <div class="contact-details">
-            <div class="contact-item">
-              <span class="contact-text">blancafaura05@gmail.com</span>
-            </div>
-
-            <div class="contact-item">
-              <span class="contact-text">+34 601424745</span>
-            </div>
-          </div>
-
-          <p class="social-intro">You may also find me on these platforms!</p>
-
-          <div class="contact-socials">
-            <a href="#"><img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub"></a>
-            <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSujqRNHY-lanhQREN5b5TRyZeRj1Kge_8eBA&s" alt="Twitter"></a>
-            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968704.png" alt="Figma"></a>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!--Footer -->
-    <footer class="footer">
-      <p>
-        2025 | Designed and coded with ❤️ by Blanca Faura
+  <!-- HEADER -->
+  <header>
+    <div class="header-text">
+      <h1>Hi, I'm Blanca <span class="wave">👋</span></h1>
+      <p class="lead">
+        I am currently pursuing a double degree in Artificial Intelligence and Computer Engineering.
+        I am looking for new opportunities to gain practical skills that will help me grow both academically and
+        professionally.
+        I am a highly creative and social person, with a strong ability to adapt to different situations.
       </p>
-    </footer>
-  </body>
-</html>
 
+      <div class="meta">
+        <div class="location">
+          <p>Zaragoza, España</p>
+        </div>
+        <div class="availability">
+          <p>Available for new projects</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="header-img">
+      <div class="frame"></div>
+      <img src="assets/imagen/imagenblanca.png" alt="Foto de Blanca" />
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="about-inner">
+        <div class="about-photo">
+          <div class="photo-frame"></div>
+          <img src="assets/imagen/imagenblanca.png" alt="Foto de Blanca" />
+        </div>
+
+        <div class="about-content">
+          <div class="badge">About me</div>
+          <h2>Curious about me? Here you have it:</h2>
+          <p>
+            I am a skilled communicator and creative thinker with a strong interest in artificial intelligence.
+            I am sociable and possess a natural ability to adapt to different situations.
+          </p>
+          <p>Regarding languages:</p>
+
+          <ul class="languagues">
+            <li>Spanish and Catalan: Native</li>
+            <li>English: Cambridge B2 Certificate</li>
+            <li>French: A2 (Official Language School)</li>
+            <li>German: A1 (Official Language School)</li>
+          </ul>
+
+          <p class="final">
+            I am always eager to learn and explore new opportunities, so if you would like to connect, collaborate, or
+            simply have a conversation, please feel free to reach out!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+      <div class="skills-inner">
+        <div class="badge">Skills</div>
+        <h2>The skills, tools and technologies I am really good at:</h2>
+
+        <div class="skills-grid">
+          <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C" />
+            <span>C</span>
+          </div>
+
+          <div class="skill">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkdgUkYVq9-UPHtkrQyNzA1t-hCdSG65-XYw&s"
+              alt="Python" />
+            <span>Python</span>
+          </div>
+
+          <div class="skill">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-M6xcO1i3iY0M1mP0TgnItcdZep_S-SXkoQ&s"
+              alt="R" />
+            <span>R</span>
+          </div>
+
+          <div class="skill">
+            <img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-2.svg" alt="MongoDB" />
+            <span>MongoDB</span>
+          </div>
+
+          <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Apache-cassandra-icon.png" alt="Cassandra" />
+            <span>Cassandra</span>
+          </div>
+
+          <div class="skill">
+            <img src="https://henrixivo.wordpress.com/wp-content/uploads/2014/07/postgresql-logo.jpg?w=468"
+              alt="PostgreSQL" />
+            <span>PostgreSQL</span>
+          </div>
+
+          <div class="skill">
+            <img src="https://cdn4.iconfinder.com/data/icons/redis-2/1451/Untitled-2-512.png" alt="Redis" />
+            <span>Redis</span>
+          </div>
+
+          <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Neo4j-logo_color.png" alt="Neo4j" />
+            <span>Neo4j</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="experience" id="experience">
+      <div class="experience-inner">
+        <div class="badge">Experience</div>
+        <h2>Here is a quick summary of my most recent experiences:</h2>
+
+        <!-- Experience Card -->
+        <div class="experience-card">
+          <div class="experience-left">
+            <img src="https://usjshop.es/wp-content/uploads/2022/01/5.jpg" alt="Universidad San Jorge Logo" />
+            <div>
+              <h3>Beca de colaboración en el grado en inteligencia artificial</h3>
+              <ul>
+                <li>Delivered pre-university workshops and activities at other educational centers.</li>
+                <li>Prepared competitions, workshops, and degree-related events (e.g., HashCode or similar).</li>
+                <li>Created and disseminated content through social media platforms.</li>
+                <li>Prepared, improved, designed, and planned pre-university workshops.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="experience-dates">October 2023 - Present</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work -->
+    <section class="work" id="work">
+      <div class="work-inner">
+        <div class="work-header">
+          <div class="badge">Work</div>
+          <h2>Some of the noteworthy projects I have built:</h2>
+        </div>
+
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/imagen/portfolio.png" alt="Imagen de mi proyecto de portfolio" />
+          </div>
+          <div class="project-content">
+            <h3>Portfolio</h3>
+            <p>Create a website with all my information</p>
+            <div class="project-tags">
+              <span>html</span>
+              <span>css</span>
+              <span>Visual Studio Code</span>
+              <span>python</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2  -->
+        <div class="project-card reverse">
+          <div class="project-image">
+            <img src="C:\Users\blanc\Desktop\uni\3 año\sistemas web\public\assets\imagen\Imagen1.png"
+              alt="Imagen proyecto aprendizaje supervisado" />
+          </div>
+          <div class="project-content">
+            <h3>Supervised learning project</h3>
+            <p>In this project, I implement and analyze the Q-learning algorithm to train an agent to learn
+              how to make optimal decisions in the Cliff Walking and Taxi environments from Gymnasium.</p>
+            <div class="project-tags">
+              <span>enviroment</span>
+              <span>jupyter notebook</span>
+              <span>Cliff Walking</span>
+              <span>Taxi</span>
+              <span>supervised learning</span>
+              <span>python</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+      <div class="testimonials-inner">
+        <div class="testimonials-header">
+          <div class="badge">Testimonials</div>
+          <h2>Nice things people have said about me:</h2>
+        </div>
+
+        <div class="testimonials-grid">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card">
+            <div class="testimonial-avatar">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWxmiQqKsGu4P4FulnB-hDH6_RyTFPzHo67Q&s"
+                alt="Profile picture" />
+            </div>
+            <p class="testimonial-text">
+              "They showed excellent understanding of Q-learning and great dedication throughout the project.
+              Their curiosity and problem-solving skills made them an outstanding student."
+            </p>
+            <h3 class="testimonial-author">Dr. Emily Roberts</h3>
+            <p class="testimonial-role">Machine Learning Professor</p>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card">
+            <div class="testimonial-avatar">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWxmiQqKsGu4P4FulnB-hDH6_RyTFPzHo67Q&s"
+                alt="Profile picture" />
+            </div>
+            <p class="testimonial-text">
+              "They were always motivated and creative, turning complex reinforcement learning ideas into solid results.
+              A great collaborator and fast learner."
+            </p>
+            <h3 class="testimonial-author">Michael Turner</h3>
+            <p class="testimonial-role">Research Assistant, AI Lab</p>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card">
+            <div class="testimonial-avatar">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWxmiQqKsGu4P4FulnB-hDH6_RyTFPzHo67Q&s"
+                alt="Profile picture" />
+            </div>
+            <p class="testimonial-text">
+              "A passionate and disciplined student who explained complex AI concepts clearly
+              and executed their Q-learning project with precision and enthusiasm."
+            </p>
+            <h3 class="testimonial-author">Prof. Laura Chen</h3>
+            <p class="testimonial-role">Data Science Instructor</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="contact-inner">
+        <div class="badge">Get in touch</div>
+        <h2 class="contact-subtitle">
+          What’s next? Feel free to reach out to me if you’re looking for a developer, have a query, or simply want to
+          connect.
+        </h2>
+
+        <div class="contact-details">
+          <div class="contact-item">
+            <span class="contact-text">blancafaura05@gmail.com</span>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-text">+34 601424745</span>
+          </div>
+        </div>
+
+        <p class="social-intro">You may also find me on these platforms!</p>
+
+        <div class="contact-socials">
+          <a href="#"><img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub"></a>
+          <a href="#"><img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSujqRNHY-lanhQREN5b5TRyZeRj1Kge_8eBA&s"
+              alt="Twitter"></a>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968704.png" alt="Figma"></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--Footer -->
+  <footer class="footer">
+    <p>
+      2025 | Designed and coded with ❤️ by Blanca Faura
+    </p>
+  </footer>
+</body>
+
+</html>

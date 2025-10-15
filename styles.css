@@ -526,6 +526,7 @@ main {
 
 /*Movil*/
 @media (max-width: 768px) {
+
   /* NAV */
   nav {
     flex-direction: column;
