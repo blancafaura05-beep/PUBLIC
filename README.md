@@ -20,7 +20,7 @@ The website includes the following sections:
 ## Figma Reference
 
 This project is based on the following Figma design:
-[Figma Design – Personal Portfolio Template](https://www.figma.com/community/file 1262992249991763120)
+[Figma Design – Personal Portfolio Template](https://www.figma.com/design/Zt3mNfbilEETsoYg8vnVGN/Personal-Portfolio-Website-Template-%7C-Mobile---Desktop--Community-?node-id=327-868&p=f&t=Je3FhRcO8ax5CefX-0)
 
 
 ## Public repository on GitHub
