@@ -33,7 +33,7 @@ This project is publicly available on GitHub at the following repository:
 
 You can view the portfolio online at the following link:
 
- [Public URL of the project](https://blancafaura05-beep.github.io/PUBLIC/)
+[Public URL of the project](https://blancafaura05-beep.github.io/PUBLIC/)
 
 
  ## Images - Desktop Version
